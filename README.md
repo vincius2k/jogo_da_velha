@@ -46,7 +46,7 @@ Quando o jogador vence, é exibido um **banner institucional** convidando-o a co
 ---
 
 ## 🧩 Estrutura do projeto
-📦 jogo-da-velha-olavo-bilac
+📦 jogo-da-velha-olavo-bilac<br>
 ├── index.html<br>
 ├── style.css<br>
 ├── script.js<br>
