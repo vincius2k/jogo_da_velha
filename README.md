@@ -38,8 +38,7 @@ Quando o jogador vence, é exibido um **banner institucional** convidando-o a co
 ✅ Dois níveis de dificuldade: **Fácil** e **Difícil (padrão)**  
 ✅ IA inteligente com estratégia de vitória e bloqueio  
 ✅ Banner institucional com confete e CTA (chamada para ação)  
-✅ Link direto para WhatsApp da escola:  
-[`https://wa.me/554332581464`](https://wa.me/554332581464)  
+✅ Link direto para WhatsApp da escola: [`https://wa.me/554332581464`](https://wa.me/554332581464)  
 ✅ Placar com vitórias, derrotas e empates  
 ✅ Modo reiniciar e escolha de quem começa  
 ✅ Código 100% em JavaScript puro (sem frameworks)
@@ -50,7 +49,7 @@ Quando o jogador vence, é exibido um **banner institucional** convidando-o a co
 📦 jogo-da-velha-olavo-bilac
 ├── index.html
 ├── style.css
-├── script.js
+├── script.js 
 └── README.md
 
 
@@ -65,9 +64,7 @@ Quando o jogador vence, é exibido um **banner institucional** convidando-o a co
 
 ## 👨‍💻 Desenvolvido por
 
-Projeto desenvolvido pelos alunos do curso **Técnico em Desenvolvimento de Sistemas**,  
-sob orientação do professor Vinicius Camargo Prattes da área de **Tecnologia e Informática** do  
-**Colégio Estadual Olavo Bilac – Ibiporã/PR**.
+Projeto desenvolvido pelos alunos do curso **Técnico em Desenvolvimento de Sistemas**, sob orientação do professor Vinicius Camargo Prattes da área de **Tecnologia e Informática** do **Colégio Estadual Olavo Bilac – Ibiporã/PR**.
 
 ---
 
