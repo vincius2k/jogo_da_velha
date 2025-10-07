@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jogo da Velha • Colégio Olavo Bilac</title>
+  <meta name="description" content="Jogue contra a IA invencível e conheça o Curso Técnico em Desenvolvimento de Sistemas do Colégio Olavo Bilac, Ibiporã." />
+  <link rel="preload" as="image" href="assets/logo-olavo-bilac.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Marca d’água/hero -->
+  <div class="hero-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <img src="Bilac.png" alt="Colégio Olavo Bilac" class="brand__logo" />
+      <div class="brand__text">
+        <h1>Colégio Estadual Olavo Bilac</h1>
+        <p class="subtitle">Curso Técnico em Desenvolvimento de Sistemas</p>
+      </div>
+    </div>
+
+    <nav class="toolbar" aria-label="Controles do jogo">
+      <div class="toggle">
+        <span>Dificuldade</span>
+        <button id="btn-hard" class="pill active" aria-pressed="true" title="IA Minimax invencível">Difícil</button>
+      </div>
+      <div class="toggle">
+        <span>Quem começa</span>
+        <button id="btn-you" class="pill active" aria-pressed="true">Você</button>
+        <button id="btn-ai" class="pill" aria-pressed="false">IA</button>
+      </div>
+      <button id="btn-reset" class="btn-primary">Reiniciar</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="board-card">
+      <div id="board" class="board" role="grid" aria-label="Jogo da velha"></div>
+
+      <div class="statusbar">
+        <div id="status" class="status">Sua vez!</div>
+        <div class="score">
+          <span>Você <strong id="scoreX">0</strong></span>
+          <span>IA <strong id="scoreO">0</strong></span>
+          <span>Empates <strong id="scoreD">0</strong></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal/banner institucional (aparece quando o jogador vence) -->
+  <dialog id="promo" class="promo">
+    <div class="promo__card">
+      <img src="assets/logo-olavo-bilac.png" alt="" class="promo__logo" />
+      <h2>🎉 Parabéns, você venceu!</h2>
+      <p>Se você curte lógica, tecnologia e desafios, <strong>o lugar certo é aqui</strong>:
+        estude no <strong>Colégio Olavo Bilac</strong> e venha para o Curso Técnico em
+        <strong>Desenvolvimento de Sistemas</strong>.</p>
+
+      <a  class="btn-cta" href="https://wa.me/554332581464?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Curso%20Técnico%20em%20Desenvolvimento%20de%20Sistemas%20do%20Colégio%20Olavo%20Bilac."
+  target="_blank" rel="noopener">
+  Quero saber mais
+      </a>
+
+      <button id="promo-close" class="btn-ghost">Fechar</button>
+    </div>
+    <canvas id="confetti" class="confetti"></canvas>
+  </dialog>
+
+  <footer class="site-footer">
+    © <span id="year"></span> • Colégio Olavo Bilac — Ibiporã/PR • Desenvolvimento de Sistemas
+  </footer>
+
+  <script src="sketch.js"></script>
+</body>
+</html>
