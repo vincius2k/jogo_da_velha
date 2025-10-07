@@ -1,7 +1,7 @@
 # 🎮 Jogo da Velha – Colégio Olavo Bilac
 
 <p align="center">
-  <img src="assets/logo-olavo-bilac.png" alt="Colégio Olavo Bilac" width="180"/>
+  <img src="Bilac.png" alt="Colégio Olavo Bilac" width="180"/>
 </p>
 
 > Projeto desenvolvido pelos alunos do curso **Técnico em Desenvolvimento de Sistemas** do **Colégio Estadual Olavo Bilac**, localizado em Ibiporã - PR.  
@@ -54,19 +54,6 @@ Quando o jogador vence, é exibido um **banner institucional** convidando-o a co
 └── README.md
 
 
----
-
-## 🖥️ Demonstração
-
-<p align="center">
-  <img src="assets/demo-preview.gif" alt="Demonstração do site" width="400"/>
-</p>
-
-> 💡 Dica: você pode hospedar o projeto gratuitamente no **GitHub Pages**.  
-> Basta acessar: **Settings → Pages → Branch: main → / (root)**.
-
----
-
 ## 🏫 Sobre o Colégio
 
 **Colégio Estadual Olavo Bilac – Ensino Fundamental, Médio e Profissional**  
@@ -79,7 +66,7 @@ Quando o jogador vence, é exibido um **banner institucional** convidando-o a co
 ## 👨‍💻 Desenvolvido por
 
 Projeto desenvolvido pelos alunos do curso **Técnico em Desenvolvimento de Sistemas**,  
-sob orientação dos professores da área de **Tecnologia e Informática** do  
+sob orientação do professor Vinicius Camargo Prattes da área de **Tecnologia e Informática** do  
 **Colégio Estadual Olavo Bilac – Ibiporã/PR**.
 
 ---
